@@ -16,4 +16,4 @@ Personal React Project for Nokia; Users can book classrooms/auditoriums and mana
                                           5.Contact Page
 
 ![image](https://github.com/emo-gato/RoomBookingTool/assets/120093461/9a692704-ae3a-4abb-bbe7-944f215afabd)
-                                         6.Calendar Screen
+                                        6.Calendar Screen
