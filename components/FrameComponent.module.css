@@ -1,0 +1,350 @@
+.frameChild {
+  height: 217px;
+  width: 1279px;
+  position: relative;
+  border-radius: var(--br-89xl) 0 0 0;
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.pinFillIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.location {
+  height: 26px;
+  position: relative;
+  display: inline-block;
+  min-width: 67px;
+}
+.locationWrapper,
+.pinFillParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.locationWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.pinFillParent {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  opacity: 0.6;
+  z-index: 1;
+}
+.timioara,
+.westUniversity {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.westUniversity {
+  height: 35px;
+  font-weight: 900;
+  display: inline-block;
+}
+.timioara {
+  font-size: var(--font-size-lgi);
+  color: var(--color-gray-200);
+}
+.frameParent,
+.westUniversityParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.westUniversityParent {
+  align-self: stretch;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+}
+.frameParent {
+  width: 220px;
+  gap: var(--gap-mini);
+}
+.userFillIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.participants {
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+}
+.participantsWrapper,
+.userFillParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.participantsWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.userFillParent {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  opacity: 0.6;
+  z-index: 1;
+}
+.people {
+  height: 35px;
+  flex: 1;
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  z-index: 1;
+}
+.peopleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.awaitingConfirmation {
+  align-self: stretch;
+  height: 28px;
+  position: relative;
+  font-size: var(--font-size-lgi);
+  color: var(--color-gray-200);
+  display: inline-block;
+  z-index: 1;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.frameContainer,
+.frameDiv,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+}
+.frameContainer {
+  width: 226px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.exportFillIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+}
+.dateAndTime {
+  height: 26px;
+  position: relative;
+  display: inline-block;
+  min-width: 113px;
+}
+.dateAndTimeWrapper,
+.exportFillParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dateAndTimeWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.exportFillParent {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  opacity: 0.6;
+  z-index: 1;
+}
+.march10Am,
+.selectDate {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.march10Am {
+  height: 35px;
+  font-weight: 900;
+}
+.selectDate {
+  height: 28px;
+  font-size: var(--font-size-lgi);
+  color: var(--color-gray-200);
+}
+.march10AmParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.frameParent1,
+.frameWrapper1,
+.march10AmParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-sm);
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+}
+.frameParent1 {
+  flex: 0.8635;
+  flex-direction: column;
+  padding: 0 var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  min-width: 176px;
+  margin-left: -8px;
+}
+.fiRrThumbtackIcon {
+  width: 21px;
+  height: 21px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.fiRrThumbtackWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.typeOfEvent {
+  position: relative;
+  display: inline-block;
+  min-width: 105px;
+}
+.frameParent3,
+.typeOfEventWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.typeOfEventWrapper {
+  align-items: flex-start;
+  opacity: 0.6;
+  z-index: 1;
+}
+.frameParent3 {
+  align-items: flex-end;
+  gap: var(--gap-2xs);
+}
+.operatingSystemsIntroduction,
+.webinar {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.webinar {
+  width: 220px;
+  height: 35px;
+  font-weight: 900;
+}
+.operatingSystemsIntroduction {
+  height: 28px;
+  font-size: var(--font-size-lgi);
+  color: var(--color-gray-200);
+}
+.frameParent2,
+.webinarParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.webinarParent {
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+}
+.frameParent2 {
+  flex: 1;
+  gap: var(--gap-mini);
+  min-width: 173px;
+  margin-left: -8px;
+}
+.frameGroup {
+  width: 747px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.classroomBookingInner,
+.frameGroup,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 1279px;
+  border-radius: var(--br-89xl) 0 0 0;
+  background-color: var(--white);
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-75xl);
+  box-sizing: border-box;
+  gap: var(--gap-39xl);
+  min-height: 217px;
+}
+.classroomBookingInner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-helvetica-now-display);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-28xl);
+    padding-right: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .rectangleParent {
+    gap: var(--gap-10xl);
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .march10Am,
+  .people,
+  .westUniversity {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent1 {
+    flex: 1;
+  }
+  .webinar {
+    font-size: var(--font-size-lgi);
+  }
+}

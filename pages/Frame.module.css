@@ -1,0 +1,159 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #e897af, #8c3f56);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.i109028MeetingRoomIsometriIcon {
+  position: absolute;
+  top: 135px;
+  left: 620px;
+  width: 621px;
+  height: 508px;
+  overflow: hidden;
+  z-index: 2;
+}
+.createAnAccount,
+.frameItem {
+  position: relative;
+  max-width: 100%;
+  left: 20px;
+}
+.frameItem {
+  width: 1082px;
+  height: 642px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-pink);
+  display: none;
+  z-index: 0;
+}
+.createAnAccount {
+  margin: 0;
+  width: 373px;
+  height: 116px;
+  font-size: var(--font-size-23xl);
+  line-height: 100%;
+  font-weight: 900;
+  font-family: var(--font-helvetica-now-display);
+  color: var(--color-dimgray-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frameInner {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 0 !important;
+  top: 174px;
+  left: 388px;
+  z-index: 3;
+}
+.inputFieldsWrapper {
+  width: 371px;
+  display: flex;
+  flex-direction: column; /* Change to column to stack input fields */
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-bottom: 20px; /* Add margin at the bottom of the input fields */
+  gap: 10px; /* Add gap between the input fields */
+}
+.button {
+  align-self: stretch;
+  flex: 1;
+  z-index: 3;
+  margin-top: 20px;
+}
+.alreadyAMember {
+  color: var(--black-60);
+}
+.span {
+  color: var(--color-black);
+}
+.signIn1 {
+  text-decoration: underline;
+  top: 100px;
+}
+.signIn {
+  color: var(--color-black);
+  top: 100px;
+}
+.alreadyAMemberContainer {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 16px;
+  font-family: var(--font-inter);
+  text-align: center;
+  z-index: 2;
+}
+.alreadyAMemberSignInWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 71px 0 100px;
+}
+.joinUsBtn {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.joinUsBtnWrapper,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  margin: 20px;
+}
+.rectangleGroup {
+  margin: 0;
+  position: absolute;
+  top: 77px;
+  left: 180px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-pink);
+  width: 1082px;
+  flex-direction: column;
+  padding: 39px 136px 76px;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+
+.rectangleParent {
+  width: 100%;
+  height: 783px;
+  position: relative;
+  background: linear-gradient(180deg, #e897af, #8c3f56);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 767px) {
+  .createAnAccount {
+    font-size: var(--font-size-15xl);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .createAnAccount {
+    font-size: var(--font-size-6xl);
+    line-height: 25px;
+  }
+}

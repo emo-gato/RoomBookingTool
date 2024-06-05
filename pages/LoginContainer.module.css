@@ -1,0 +1,313 @@
+.loginContainerChild {
+  height: 100vh; 
+  width: 100vw; 
+  position: fixed;
+  top: 0;  
+  left: 0; 
+  background: linear-gradient(180deg, #e897af, #8c3f56);
+  display: block; 
+  z-index: -1;
+}
+
+
+
+.rectangleParent {
+  height: 642px;
+  position: relative;
+  top: 0;
+  left: 50px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-pink);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: 42px;
+  color: #663947;
+  font-family: var(--font-helvetica-now-display);
+}
+.login {
+  margin: 0;
+  position: absolute;
+  top: 123px;
+  left: 211px;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 900;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 115px;
+  height: 116px;
+  z-index: 2;
+}
+.notAMember {
+  color: var(--black-60);
+  font-size:16px;
+}
+.createAnAccount {
+  text-decoration: underline;
+  font-size:16px;
+}
+.inputField,
+.notAMemberContainer {
+  font-family: var(--body);
+  font-size: var(--body-size);
+  z-index: 2;
+}
+.notAMemberContainer {
+  position: absolute;
+  top: 475px;
+  left: 137px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--color-black);
+}
+.inputField {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 48px;
+  color: var(--black);
+}
+.selectedShape {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -6px;
+  bottom: -6px;
+  left: 0;
+  border-radius: var(--br-9xs);
+  border: 3px solid var(--black-20);
+  box-sizing: border-box;
+}
+.exclamationIcon {
+  height: 13px;
+  width: 13px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.message1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--label-size);
+  line-height: 120%;
+  font-family: var(--body);
+  color: var(--black-60);
+  text-align: left;
+}
+.message {
+  height: 14px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 16px 0 0;
+  box-sizing: border-box;
+  gap: 3px;
+  z-index: 1;
+}
+.emailMailIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconLeft {
+  height: 18px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 8px 0 0;
+  box-sizing: border-box;
+}
+.indicator {
+  height: 22px;
+  width: 1px;
+  position: relative;
+  border-radius: var(--br-12xs);
+  background-color: var(--black);
+  flex-shrink: 0;
+  display: none;
+}
+.emailAddress {
+  position: relative;
+  font-size: var(--body-size);
+  line-height: 140%;
+  font-family: var(--body);
+  color: var(--black);
+  text-align: left;
+  display: inline-block;
+  min-width: 117px;
+}
+.indicatorRight {
+  height: 22px;
+  width: 1px;
+  border-radius: var(--br-12xs);
+  background-color: var(--black);
+}
+.eyeShowIcon,
+.indicatorRight,
+.spacer {
+  position: relative;
+  flex-shrink: 0;
+}
+.spacer {
+  height: 22px;
+  width: 207px;
+  border-radius: var(--br-12xs);
+}
+.eyeShowIcon {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.eyeShow,
+.field {
+  box-sizing: border-box;
+}
+.eyeShow {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.field {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--black);
+  overflow-x: auto;
+  padding: 13px 15px;
+  z-index: 1;
+}
+.field,
+.inputField1,
+.inputField2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputField2 {
+  flex: 1;
+  position: relative;
+}
+.inputField1 {
+  align-self: stretch;
+  z-index: 2;
+}
+.rememberMe,
+.rememberMe1 {
+  position: relative;
+  z-index: 2;
+}
+.rememberMe {
+  margin: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--black-20);
+  box-sizing: border-box;
+}
+.rememberMe1 {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: var(--body);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 96px;
+}
+.calendar,
+.inputFieldParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.inputFieldParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 100%;
+}
+.frameItem {
+  align-self: stretch;
+  height: 48px;
+  z-index: 2;
+}
+.frameParent {
+  margin: 0;
+  position: absolute;
+  top: 233px;
+  left: 81px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.calendar1Icon {
+  position: absolute;
+  top: 95px;
+  left: 400px;
+  width: 650px;
+  height: 451px;
+  overflow: hidden;
+  z-index: 3;
+}
+.rectangleParent {
+  height: 642px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-pink);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: 42px;
+  color: #663947;
+  font-family: var(--font-helvetica-now-display);
+}
+.loginContainer {
+  width: 1232px;
+  background: linear-gradient(180deg, #e897af, #8c3f56);
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 77px 75px 64px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .login {
+    font-size: 34px;
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .loginContainer {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,848 @@
+.calendarSection {
+  margin-top: 40px;
+  width: 100%; /* Ensure the calendar section takes full width */
+}
+
+.calendarHeader {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.addEventForm {
+  margin-top: 20px;
+  width: 100%; /* Ensure the form takes full width */
+}
+
+.addEventForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.addEventForm input,
+.addEventForm .react-datepicker-wrapper {
+  display: block;
+  width: calc(100% - 20px); /* Ensure input fields take full width minus some padding */
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addEventForm button {
+  background-color: #a63e51;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addEventForm button:hover {
+  background-color: #a63e51;
+}
+
+.dateLabel {
+  position: relative;
+}
+
+.calendarIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrowleftIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.roombooking {
+  width: 100%;
+  min-height: 10000px;
+  position: relative;
+  background-color: var(--gray-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--body-regular-400-size);
+  color: var(--primary-500);
+  font-family: var(--body-large-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.arrowleftWrapper {
+  position: absolute;
+  top: 1750px;
+  left: 758px;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-50);
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+
+.roombooking {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items towards the left */
+  padding-left: 20px; /* Adjust as needed */
+}
+
+.div {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.wrapper {
+  position: absolute;
+  top: 1750px;
+  left: 818px;
+  border-radius: var(--br-10xs);
+  background-color: var(--primary-500);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+  color: var(--gray-white);
+}
+
+.div1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.container {
+  position: absolute;
+  top: 1750px;
+  left: 878px;
+  border-radius: var(--br-10xs);
+  background-color: var(--primary-50);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+}
+
+.div2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.frame {
+  position: absolute;
+  top: 1750px;
+  left: 938px;
+  border-radius: var(--br-10xs);
+  background-color: var(--primary-50);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var (--padding-4xs);
+}
+
+.div3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.frameDiv {
+  position: absolute;
+  top: 1750px;
+  left: 998px;
+  border-radius: var (--br-10xs);
+  background-color: var(--primary-50);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+}
+
+.div4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.wrapper1 {
+  position: absolute;
+  top: 1750px;
+  left: 1058px;
+  border-radius: var (--br-10xs);
+  background-color: var (--primary-50);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var (--padding-4xs);
+}
+
+.arrowrightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.arrowrightWrapper {
+  position: absolute;
+  top: 1750px;
+  left: 1118px;
+  border-radius: var (--br-9xs);
+  background-color: var (--primary-500);
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+
+.header {
+  position: absolute;
+  bottom: 399px;
+  left: 300px;
+  border-top: 1px solid #e7e9eb;
+  box-sizing: border-box;
+  width: 1321px;
+  height: 1px;
+}
+
+.frameChild {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  background-color: #e07a8c;
+  width: 100%;
+  height: 100%;
+}
+
+.frameItem {
+  position: absolute;
+  top: 256px;
+  left: 831px;
+  width: 404px;
+  display: none;
+}
+
+.availableRooms {
+  display: none; /* Hide the Available Rooms heading */
+}
+
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 430px;
+  text-align: center;
+  font-size: 80px;
+  color: #663947;
+  font-family: var(--font-helvetica-now-display);
+  align-self: flex-start; /* Align to the start of the flex container */
+  margin-left: auto; 
+}
+
+.roombooking {
+  width: 100%;
+  height: 2244px;
+  position: relative;
+  background-color: var (--gray-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var (--body-regular-400-size);
+  color: var (--primary-500);
+  font-family: var (--body-large-500);
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center;
+}
+
+@media screen and (max-width: 975px) {
+  .availableRooms {
+    font-size: 40px;
+    line-height: 43px;
+    align-self: flex-start; /* Align to the start of the flex container */
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .availableRooms {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+/* RoomBooking.module.css */
+
+.arrowleftWrapper {
+  left: 688px; /* Adjust the left position */
+}
+
+.wrapper {
+  left: 748px; /* Adjust the left position */
+}
+
+.container {
+  left: 80px; /* Adjust the left position */
+}
+
+.frame {
+  left: 86px; /* Adjust the left position */
+}
+
+.frameDiv {
+  left: 928px; /* Adjust the left position */
+}
+
+.wrapper1 {
+  left: 988px; /* Adjust the left position */
+}
+
+.arrowrightWrapper {
+  left: 1048px; /* Adjust the left position */
+}
+
+.header {
+  left: 100px; /* Adjust the left position */
+}
+
+.availableRooms {
+  left: 1118px; /* Adjust the left position */
+}
+
+.rectangleParent {
+  margin-left: 0; /* Remove margin-left */
+}
+
+.roombooking {
+  padding-left: 0; /* Remove padding-left */
+}
+
+/* RoomBooking.module.css */
+
+.arrowleftWrapper {
+  left: 668px; /* Adjust the left position */
+}
+
+.wrapper {
+  left: 728px; /* Adjust the left position */
+}
+
+.container {
+  left: 788px; /* Adjust the left position */
+}
+
+.frame {
+  left: 848px; /* Adjust the left position */
+}
+
+.frameDiv {
+  left: 908px; /* Adjust the left position */
+}
+
+.wrapper1 {
+  left: 968px; /* Adjust the left position */
+}
+
+.arrowrightWrapper {
+  left: 1028px; /* Adjust the left position */
+}
+
+.header {
+  left: 50px; /* Adjust the left position */
+}
+
+.groupComponentWrapper {
+  width: 100%;
+  margin-bottom: 10px; /* Reduce margin-bottom to minimize spacing */
+  background: linear-gradient(90deg, rgba(201, 130, 151, 0.75) 2.9%, rgba(138, 76, 95, 0.75));
+  padding: 10px 0; /* Add padding to ensure the content inside is properly spaced */
+}
+.roombooking {
+  width: 100%;
+  min-height: 3100px;
+  position: relative;
+  background-color: var(--gray-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--body-regular-400-size);
+  color: var(--primary-500);
+  font-family: var(--body-large-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.frameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust gap as needed */
+}
+.myEventsSection {
+  margin-top: 20px;
+  width: 100%;
+}
+/* RoomBooking.module.css */
+
+.myEventsSection {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.myEventsSection h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.frameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.myEventsSection h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.frameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+/* Add additional styles as necessary */
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 0; /* Reduce margin-top to minimize spacing */
+  margin-bottom: 10px; /* Add margin-bottom to create space after controls */
+  padding: 0; /* Remove padding to minimize spacing */
+}
+
+.roombooking {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
+  padding: 0 20px; /* Adjust padding to remove unnecessary space */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #a63e51;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #a63e51;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.close {
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.roombooking {
+  /* existing styles */
+  padding: 20px; /* Ensure there's some padding to accommodate the buttons */
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px; /* Reduce margin-bottom to minimize spacing */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #a63e51;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #a63e51;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.roombooking {
+  /* existing styles */
+  padding: 20px; /* Ensure there's some padding to accommodate the buttons */
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px; /* Reduce margin-bottom to minimize spacing */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #a63e51;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #a63e51;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.close {
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.roombooking {
+  /* existing styles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px; /* Reduce margin-bottom to minimize spacing */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #a63e51; /* Same color as the Join button */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Adjust the radius as needed */
+}
+
+.button:hover {
+  background-color: #a63e51; /* Darker shade for hover effect */
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.close {
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+.calendarSection {
+  margin-top: 1550px;
+}
+
+.calendarHeader {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.addEventForm {
+  margin-top: 20px;
+}
+
+.addEventForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.addEventForm input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addEventForm button {
+  background-color: #a63e51;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addEventForm button:hover {
+  background-color: #a63e51;
+}
+
+
+.arrowleftWrapper {
+  position: absolute;
+  top: 1750px;
+  left: 758px;
+  border-radius: var (--br-9xs);
+  background-color: var (--primary-50);
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var (--padding-3xs);
+}
+
+.arrowleftIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.wrapper {
+  position: absolute;
+  top: 1750px;
+  left: 818px;
+  border-radius: var (--br-10xs);
+  background-color: var (--primary-500);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var (--padding-3xs) var (--padding-4xs);
+  color: var (--gray-white);
+}
+
+.div {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+/* Reduce spacing between toolbar and controls */
+.groupComponentWrapper {
+  width: 100%;
+  margin-bottom: 0px; /* Reduce margin-bottom to minimize spacing */
+  background: linear-gradient(90deg, rgba(201, 130, 151, 0.75) 2.9%, rgba(138, 76, 95, 0.75));
+  padding: 10px 0; /* Add padding to ensure the content inside is properly spaced */
+}
+
+/* Adjust frameContainer to reduce gap */
+.frameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Adjust gap as needed to minimize spacing */
+}
+
+/* Reduce spacing in controls */
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px; /* Reduce margin-top to minimize spacing */
+  margin-bottom: 10px; /* Add margin-bottom to create space after controls */
+  padding: 0; /* Remove padding to minimize spacing */
+}
+
+/* Adjust styles for RoomBooking */
+.roombooking {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
+  padding: 0 20px; /* Adjust padding to remove unnecessary space */
+}
+
+/* Adjust margin for calendar section */
+.calendarSection {
+  margin-top: 20px; /* Reduce margin-top to bring it closer to event cards */
+  width: 100%; /* Ensure the calendar section takes full width */
+}
+
+.calendarHeader {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.addEventForm {
+  margin-top: 10px; /* Reduce margin-top to bring it closer to calendar */
+  width: 100%; /* Ensure the form takes full width */
+}
+
+.addEventForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.addEventForm input,
+.addEventForm .react-datepicker-wrapper {
+  display: block;
+  width: calc(100% - 20px); /* Ensure input fields take full width minus some padding */
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addEventForm button {
+  background-color: #a63e51;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addEventForm button:hover {
+  background-color: #a63e51;
+}
+
+.dateLabel {
+  position: relative;
+}
+
+.calendarIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrowleftIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.close {
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

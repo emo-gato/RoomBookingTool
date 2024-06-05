@@ -1,0 +1,100 @@
+.bookToday,
+.empowerYourEvents {
+  margin: 0;
+}
+.empowerYourEventsContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 182px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+}
+.span {
+  color: #700022;
+}
+.withOver100Container {
+  width: 406px;
+  height: 70px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  max-width: 100%;
+  color: var(--color-dimgray-100);
+}
+.classroomBookingInner,
+.empowerYourEventsBookTodaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.empowerYourEventsBookTodaParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 39px;
+}
+.classroomBookingInner {
+  width: 852px;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl) 73.7px;
+  box-sizing: border-box;
+}
+.image1Icon {
+  width: 688px;
+  height: 458px;
+  position: absolute;
+  margin: 0 !important;
+  top: 108px;
+  right: -14px;
+  object-fit: contain;
+  z-index: 2;
+}
+.classroomBooking {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-pink);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 41.3px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 62px;
+  color: var(--color-dimgray-200);
+  font-family: var(--font-helvetica-now-display);
+}
+@media screen and (max-width: 1050px) {
+  .empowerYourEventsContainer {
+    font-size: 50px;
+  }
+  .classroomBookingInner {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .empowerYourEventsBookTodaParent {
+    gap: 19px;
+  }
+  .classroomBooking {
+    gap: 21px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .empowerYourEventsContainer {
+    font-size: 37px;
+  }
+  .withOver100Container {
+    font-size: var(--font-size-lgi);
+  }
+  .classroomBookingInner {
+    padding-bottom: 48px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,52 @@
+.inputField,
+.inputField1,
+.inputField2,
+.inputField3,
+.inputField4,
+.inputField5 {
+  align-self: stretch;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--black-60);
+}
+.inputField,
+.inputField1,
+.inputField2 {
+  border: 0;
+  background-color: transparent;
+  height: 35px;
+  z-index: 4;
+}
+.inputField3,
+.inputField4,
+.inputField5 {
+  z-index: 3;
+}
+.inputField3,
+.inputField4 {
+  border: 0;
+  background-color: transparent;
+  height: 35px;
+}
+.inputField5 {
+  height: 34px;
+}
+.inputFields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs-4);
+}
+
+.inputFields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add gap between input fields */
+}
+
+.inputField {
+  width: 100%;
+  margin-bottom: 10px; /* Add margin to each input field */
+}

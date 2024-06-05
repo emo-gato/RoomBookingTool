@@ -1,0 +1,53 @@
+.shapeIcon {
+  position: relative;
+  width: 55px;
+  height: 36.1px;
+}
+.default,
+.k {
+  position: absolute;
+}
+.k {
+  top: 7px;
+  left: 14px;
+  line-height: 163.42%;
+}
+.default {
+  height: calc(100% - 0.9px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.9px;
+  left: 0;
+}
+.shapeIcon1 {
+  position: relative;
+  width: 55px;
+  height: 36.1px;
+}
+.active,
+.k1 {
+  position: absolute;
+}
+.k1 {
+  top: 7px;
+  left: 14px;
+  line-height: 163.42%;
+}
+.active {
+  height: calc(100% - 0.9px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.9px;
+  left: 0;
+  color: var(--white);
+}
+.mapPin {
+  width: 55px;
+  height: 37px;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--black1);
+  font-family: var(--font-open-sans);
+}

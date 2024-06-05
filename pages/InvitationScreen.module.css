@@ -1,0 +1,35 @@
+.invitationScreen {
+  position: relative; /* Relative positioning for inner content */
+  height: 100vh; /* Full view height */
+  width: 100vw; /* Full view width */
+  overflow: hidden; /* Hide overflow */
+  display: flex; /* Flex container for centering */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.fullScreenImage {
+  width: 100vw; /* Full view width */
+  height: 100vh; /* Full view height */
+  object-fit: cover; /* Cover the container without losing aspect ratio */
+  position: absolute; /* Absolute to allow button overlay */
+  top: 0;
+  left: 0;
+}
+
+.downloadButton {
+  position: relative; /* Bring the button above the image */
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 16px; /* Font size for button text */
+  color: white; /* Text color */
+  background-color: #f9c8d1; /* Pink background */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  z-index: 10; /* Ensure it's above the image */
+}
+
+.downloadButton:hover {
+  background-color: #e7a9bf; /* Slightly darker pink on hover */
+}

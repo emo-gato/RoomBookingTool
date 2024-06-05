@@ -1,0 +1,151 @@
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.snackbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.frameChild1 {
+  margin: 5px;
+}
+
+
+.frameWrapper {
+  margin-left: 10px; 
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.snackbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.pinterestParent {
+  margin-left: 1px; 
+}
+
+.bulevardulVasilePrvan {
+  text-align: center;
+}
+
+.defaultOrder {
+  color: var(--color-dimgray-100);
+}
+
+.sortByDefaultContainer {
+  position: relative;
+  line-height: 24px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+.caretdownIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.filterSort,
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.filterSort {
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+
+.frameParent {
+  display: grid;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(318px, 1fr)); 
+}
+
+.frameGroup,
+.roomList,
+.roomsContent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px 22px;
+  min-height: 1054px;
+}
+
+.roomList,
+.roomsContent {
+  flex-direction: column;
+}
+
+.roomList {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  text-align: left;
+  font-size: var(--body-large-500-size);
+  color: var(--gray-700);
+}
+
+.roomsContent {
+  position: absolute;
+  top: 530px;
+  left: 50px; 
+  width: calc(100% - 100px);
+  align-items: flex-end;
+  gap: var(--gap-31xl);
+  text-align: center;
+  font-size: var(--body-regular-400-size);
+  color: var(--color-gray);
+  font-family: var(--body-large-500);
+}
+
+@media screen and (max-width: 1000px) {
+  .frameParent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(318px, 551px));
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .frameParent {
+    grid-template-columns: minmax(318px, 1fr);
+  }
+}

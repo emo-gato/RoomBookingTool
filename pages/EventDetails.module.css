@@ -1,0 +1,35 @@
+.event-details {
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .searchInput {
+    width: 100%; /* Full width of its container */
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%); /* Example gradient */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounded corners */
+    color: white; /* Text color for visibility */
+    padding: 10px 15px; /* Padding inside the search bar */
+    outline: none; /* Removes default focus outline */
+  }
+  
+  /* You may need to target the underlying input field specifically in Material-UI */
+  .searchInput input {
+    color: white; /* Ensures input text is white */
+    background: transparent; /* Ensures the input background is transparent */
+  }
+  
+  .event-details h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .event-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  

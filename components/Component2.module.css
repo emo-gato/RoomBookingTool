@@ -1,0 +1,111 @@
+.frameChild {
+  height: 81px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--main-logotype);
+  display: none;
+  max-width: 100%;
+}
+.moralizer2021Template {
+  height: 27.8px;
+  width: 298px;
+  position: relative;
+  line-height: 22px;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.mealtimeHeading {
+  width: 1px;
+  height: 16.2px;
+  position: relative;
+  border-right: 1px solid var(--white);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.mealtimeHeadingWrapper,
+.moralizer2021TemplateBySofParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mealtimeHeadingWrapper {
+  height: 21.5px;
+  flex-direction: column;
+  padding: var(--padding-6xs-3) 0 0;
+  box-sizing: border-box;
+  margin-left: -179px;
+}
+.moralizer2021TemplateBySofParent {
+  width: 298px;
+  flex-direction: row;
+}
+.terms {
+  align-self: stretch;
+  height: 27.8px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.termsWrapper {
+  width: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-3) 0 0;
+  box-sizing: border-box;
+}
+.privacy {
+  align-self: stretch;
+  height: 27.8px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.privacyWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.privacyWrapper {
+  width: 53px;
+  flex-direction: column;
+  padding: var(--padding-11xs-3) 0 0;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--main-logotype);
+  flex-direction: row;
+  padding: var(--padding-6xl-3) var(--padding-131xl) var(--padding-7xl-6);
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-small-size);
+  color: var(--white);
+  font-family: var(--body-small);
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-56xl);
+    padding-right: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

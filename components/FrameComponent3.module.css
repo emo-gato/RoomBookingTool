@@ -1,0 +1,187 @@
+.pinterestIcon {
+  align-self: stretch;
+  height: 240.9px;
+  position: relative;
+  border-radius: 6.42px 6.42px 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bulevardulVasilePrvan {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-2xl-4);
+  line-height: 29.98px;
+  font-weight: 500;
+}
+.free {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--primary-500);
+  display: inline-block;
+  min-width: 50px;
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -1px;
+}
+.mirunaSpineanu {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.istockphotoxremovebgpreview,
+.istockphotoxremovebgpreviewWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.istockphotoxremovebgpreviewWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: center;
+}
+.bulevardulVasilePrvan4TiParent,
+.pinterestParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bulevardulVasilePrvan4TiParent {
+  width: 413px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.pinterestParent {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.frameWrapper {
+  box-shadow: 0 25.7px 72.81px rgba(59, 77, 129, 0.08);
+  border-radius: 6.42px;
+  background-color: var(--gray-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-63xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-large-500-size);
+  color: var(--gray-700);
+  font-family: var(--body-large-500);
+}
+@media screen and (max-width: 450px) {
+  .bulevardulVasilePrvan {
+    font-size: var(--font-size-mid);
+    line-height: 24px;
+  }
+  .free,
+  .mirunaSpineanu {
+    font-size: var(--body-regular-400-size);
+    line-height: 22px;
+  }
+}
+
+
+/* FrameComponent3.module.css */
+
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px; /* Adjust padding to make the button bigger */
+  background-color: var(--color-dimgray-200);
+  flex: 1;
+  border-radius: var(--br-2xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Adjust alignment */
+  justify-content: center; /* Adjust alignment */
+  white-space: nowrap;
+  z-index: 2;
+  /* Adjust margin to move the button towards the right */
+  margin-left: 20px; /* Adjust the pixel value as needed */
+  color: white; /* Change text color to white */
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+.detailsButtonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Add spacing between the button and the text */
+}
+.groupButtonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px; /* Adjust padding to make the button bigger */
+  background-color: var(--color-dimgray-200);
+  border-radius: var(--br-2xs);
+  color: white; /* Change text color to white */
+  font-size: 18px; /* Adjust font size as needed */
+  margin-left: 140px;
+}
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1000; /* Adjust z-index to make sure it's above other elements */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; /* Center the content */
+}
+
+.joinButton {
+  padding: 12px 24px; /* Adjust padding to make the button bigger */
+  background-color: var(--color-dimgray-200);
+  border: 0;
+  border-radius: var(--br-2xs);
+  cursor: pointer;
+  font-size: 18px; /* Adjust font size as needed */
+  color: white; /* Change text color to white */
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

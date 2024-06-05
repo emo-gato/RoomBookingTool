@@ -1,0 +1,213 @@
+.frameChild,
+.frameItem {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frameChild {
+  height: 118.7px;
+  width: 1370px;
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frameItem {
+  height: 46px;
+  width: 450px;
+  border-radius: var(--br-2xs);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 130, 151, 0.75) 2.9%,
+    rgba(138, 76, 95, 0.75)
+  );
+}
+.groupIcon {
+  height: 33px;
+  width: 32px;
+  position: relative;
+  z-index: 3;
+}
+.rectangleGroup {
+  width: 450px;
+  border-radius: var(--br-2xs);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 130, 151, 0.75) 2.9%,
+    rgba(138, 76, 95, 0.75)
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-6xs-8) var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameInner {
+  height: 46px;
+  width: 173px;
+  position: relative;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-dimgray-200);
+  display: none;
+}
+.digitalInvitation {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  font-family: var(--font-helvetica-now-display);
+  color: var(--white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleContainer,
+.rectangleDiv {
+  border-radius: var(--br-2xs);
+  background-color: var(--color-dimgray-200);
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-mini);
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangleContainer {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  padding: 8px 12px;
+  border-radius: 8px;
+  width: 100%; /* Adjust width as needed */
+}
+.groupButton:hover,
+.rectangleContainer:hover {
+  background-color: var(--color-rosybrown);
+}
+.rectangleDiv {
+  height: 46px;
+  width: 173px;
+  position: relative;
+  display: none;
+}
+.searchInput {
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white; /* For visibility against the gradient */
+  font-size: 16px; /* Adjust as needed */
+  width: 100%; /* Ensure the input fills the container */
+}
+.myReservations {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  font-family: var(--font-helvetica-now-display);
+  color: var(--white);
+  text-align: left;
+  z-index: 1;
+}
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.snackbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.frameChild1 {
+  margin: 5px;
+}
+
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-mini);
+  background-color: var(--color-dimgray-200);
+  flex: 1;
+  border-radius: var(--br-2xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center; /* Center align text */
+  white-space: nowrap;
+  z-index: 2;
+}
+.frameChild1 {
+  align-self: stretch;
+  flex: 0.4126;
+  z-index: 2;
+}
+.frameParent,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between; /* Ensure space between buttons */
+  width: 100%; /* Full width to stretch buttons */
+}
+.frameParent {
+  width: 100%; /* Full width to stretch buttons */
+  justify-content: space-between;
+  gap: var(--gap-2xl); /* Add some gap between buttons */
+  max-width: 100%;
+}
+.rectangleParent {
+  height: 118.7px;
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+  padding: var(--padding-14xl) var(--padding-40xl) var(--padding-20xl-7)
+    var(--padding-61xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 101%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.logoutButton {
+  text-transform: none;
+  color: #fff;
+  font-size: 16px;
+  background: #db7192;
+  border-radius: 11px;
+  padding: 15px 30px; /* Increase padding to make the button taller */
+  flex: 1;
+  border: none;
+  cursor: pointer;
+  justify-content: center; /* Center align text */
+  height: 46px; /* Match the height of other buttons */
+}
+.logoutButton:hover {
+  background: #c25578;
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
